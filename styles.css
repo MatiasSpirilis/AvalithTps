@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    /* background-color: #f57f7f; */
+    
+}
+
+body {
+    background: url("https://t1.pb.ltmcdn.com/es/posts/8/3/8/que_significa_sonar_con_estrellas_5838_orig.jpg");
+    background-attachment: fixed;
+}
+
+.card, .card2 {
+
+    display: flex;
+    padding: 20px;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 25px;
+    width: 20%;
+    height: 500px;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75); 
+    transition: 1s;
+    background: linear-gradient(#b673c8, #ffffff);
+
+}
+
+.card2 {
+    
+    background: linear-gradient(rgb(137, 150, 238), rgb(255, 255, 255))
+}
+
+
+.card:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.card2:hover {
+    background-color: chocolate;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.title {
+    
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+.info {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 70%;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    height: 60%;
+    
+    
+}
+
+.img {
+    border: 1px solid black;
+    width: 45%;
+    
+}
+
+.id {
+    
+    display: flex;
+    align-items: center;
+    width: 30%;
+    font-size: 2rem;
+    
+}
+
+.line--one {
+
+    width: 100%;
+    background-color: rgb(75, 69, 69);
+    height: 2px;
+    margin-top: 20px;
+
+}
+
+.line--two {
+
+    width: 2px;
+    background-color: rgb(75, 69, 69);
+    height: 100%;
+    
+}

@@ -18,9 +18,8 @@ fetch(todos_url)
                 <div class="line--one"></div>
                 <div class="data">
                     <div class="id">
-                        <h3 class="idd">
-                            
-                            ${elements.id}
+                        <h3>
+                             ${elements.id}
                         </h3>
                     </div>
                     <div class="line--two"></div>
